@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <TextView
+        android:id="@+id/Text_NomPreview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart" />
+
+    <TextView
+        android:id="@+id/Text_PrenomPreview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart" />
+
+    <TextView
+        android:id="@+id/Text_DateDeNaissancePreview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart" />
+
+    <TextView
+        android:id="@+id/Text_EmailPreview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart" />
+
+    <TextView
+        android:id="@+id/Text_AdressePreview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="160dp" />
+
+    <Button
+        android:id="@+id/button_sport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sport" />
+
+    <Button
+        android:id="@+id/button2_accueil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/accueil" />
+
+
+</LinearLayout>

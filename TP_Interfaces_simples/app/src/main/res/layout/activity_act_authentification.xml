@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:gravity="top">
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="109dp">
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/mr" />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/md" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/Text_Nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/nom"
+        android:inputType="textPersonName"
+        android:singleLine="false" />
+
+    <EditText
+        android:id="@+id/Text_Prenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/prenom"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/Text_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/Text_DateDeNaissance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/datedenaissance"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/Text_Adresse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/adresse"
+        android:inputType="textPersonName" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="28dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        andoid:gra
+
+        <Button
+            android:id="@+id/button_Valide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/valide" />
+
+    </LinearLayout>
+
+</LinearLayout>
